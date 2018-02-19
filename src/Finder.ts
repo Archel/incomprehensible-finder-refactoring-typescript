@@ -11,7 +11,6 @@ class Finder {
 
     public Find(ft: FT): F {
         const tr = [];
-        const date = new Date();
         for (let i: number = 0; i < this._P.length - 1; i++) {
             for (let j = i + 1; j < this._P.length; j++) {
                 const r = new F();
